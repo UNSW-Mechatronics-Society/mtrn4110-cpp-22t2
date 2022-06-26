@@ -12,3 +12,8 @@ int square(int const x) {
 double area(double const width, double const length) {
     return width * length;
 }
+
+// Void function
+void do_something_2() {
+    return;
+}

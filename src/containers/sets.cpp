@@ -4,14 +4,14 @@
 #include <string>
 
 auto main() -> int {
-    auto s_1 = std::set<std::string>();
-    auto s_2 = std::unordered_set<std::string>();
+    auto set_2 = std::set<std::string>();
+    auto set = std::unordered_set<std::string>();
 
-    s_1.insert("mtrnsoc");
-    s_1.insert("mtrnsoc");
-    s_1.insert("mtrn4110");
+    set.insert("mtrnsoc");
+    set.insert("mtrnsoc");
+    set.insert("mtrn4110");
 
-    for (auto const& x : s_1) {
+    for (auto const& x : set) {
         std::cout << x << std::endl;
     }
     // mtrn4110
