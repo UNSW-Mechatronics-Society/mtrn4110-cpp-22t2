@@ -69,7 +69,7 @@ IndentCaseBlocks: false
 IndentCaseLabels: false
 IndentGotoLabels: false
 IndentPPDirectives: AfterHash
-IndentWidth: 3
+IndentWidth: 4
 IndentWrappedFunctionNames: false
 KeepEmptyLinesAtTheStartOfBlocks: false
 MaxEmptyLinesToKeep: 1
@@ -110,6 +110,4 @@ SpacesInContainerLiterals: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 
-TabWidth: 3
 UseCRLF: false
-UseTab: ForIndentation
